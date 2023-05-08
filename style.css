@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 83, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.title {
+    font-family: "Rubik Vinyl", cursive;
+    text-align: center;
+    margin: 10px;
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: 3px;    
+}
+.main {
+    width: 100%;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+}
+
+.img-section {
+    width: 30%;
+}
+
+.img-section img {
+    float: left;
+    /* width: 100%; */
+    height: 225px;
+    padding: 5px;
+}
+
+.text h3 {
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+    text-align: left;
+    color: #f4a460;
+}
+.text p {
+    text-align: justify;
+    color: white;
+    font-weight:300;
+    text-indent: 1rem;
+
+}
+
+.img-section img:hover {
+    cursor: pointer;
+    height: 275px;
+    width: max-content;
+}
+.text button {
+    float: right;
+    margin-top: 50px;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #ff7f50;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.text button:hover {
+    width: 120px;
+    height: 45px;
+}
+
+.text > button a {
+    text-decoration: none;
+    color: white;
+}
